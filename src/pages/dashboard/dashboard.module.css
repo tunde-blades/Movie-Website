@@ -1,0 +1,121 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.dashboard{
+    position: absolute;
+    width: 97%;
+     background-color: rgb(1, 9, 27);
+     color: rgb(214, 205, 205);
+     padding: 0 1.5%;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+@media (max-width:600px) {
+    .nowPlaying{
+    position: relative;
+    width: 98%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 5% 0;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.562);
+
+}
+.playicon{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 50px;
+}
+.vidimg{
+    position: relative;
+}
+.nowPlaying img{
+    width: 100vw;
+}
+.nowplayingVid{
+    width: 100;
+}
+.playDetails{
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.377);
+    width: 98%;
+    padding:10px 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.playDetails h3{
+    width: 50%;
+    font-weight: 200;
+}
+.playDetails small{
+    width: 50%;
+    font-size: 10px;
+}
+.downshareicon{
+    display: flex;
+    width: 90%;
+    justify-content: flex-end;
+    font-size: 13px;
+}
+.downloadicon{
+    padding: 0 20px;
+}
+}
+@media (min-width:600px) {
+    .nowPlaying{
+    position: relative;
+    width: 98%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 5% 0;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.562);
+
+}
+.playicon{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 50px;
+}
+.vidimg{
+    position: relative;
+}
+.nowPlaying img{
+    width: 100vw;
+}
+.nowplayingVid{
+    width: 100;
+}
+.playDetails{
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.377);
+    width: 98%;
+    padding:10px 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.playDetails h3{
+    width: 50%;
+    font-size: 40px;
+    font-weight: 200;
+}
+.playDetails small{
+    width: 50%;
+}
+.downshareicon{
+    display: flex;
+    width: 90%;
+    justify-content: flex-end;
+}
+.downloadicon{
+    padding: 0 20px;
+}
+}

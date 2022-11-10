@@ -1,0 +1,47 @@
+.profilebox{
+    color: black;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 10px;
+    border-radius: 20px;
+}
+.navs{
+    color: black;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 130%;
+    left: 75%;
+    border-radius: 1em;
+    border-bottom: 3px solid rgb(1, 9, 27);
+    background-color: white;
+    justify-content: center;
+    padding: 10px;
+    text-transform: capitalize;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.list{
+    padding: 10px 10px;
+    font-size: 15px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.089);
+}
+.homenav{
+    color: rgb(1, 9, 27);
+}
+.addnav{
+    color: rgb(1, 9, 27);
+}
+.messagenav{
+    color: rgb(1, 9, 27);
+}
+.videonav{
+    color: rgb(1, 9, 27);
+}
+.notifynav{
+    color: rgb(1, 9, 27);
+}

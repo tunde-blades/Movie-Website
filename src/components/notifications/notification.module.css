@@ -1,0 +1,36 @@
+.notificationbox{
+    color: rgb(1, 9, 27);
+    position: absolute;
+    left: 75%;
+    top: 7vh;
+    background: white;
+    padding: 20px;
+    width: 20%;
+    border-radius: .3em;
+    border-bottom: 2px solid rgb(1, 9, 27);
+    z-index:40;
+    height: 50vh;
+    overflow-y: scroll; 
+}
+.notificationbox h4{
+    font-size: 13px;
+    padding-bottom: 10px;
+}
+.list{
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-size: 11px;
+    cursor: pointer;
+    margin-bottom: 15%;
+    color: grey;
+}
+img{
+    margin-right: 5px;
+    padding-bottom: 2px;
+}
+.movieTitle{
+    color: rgb(1, 9, 27);
+    font-size: 14px;
+}
